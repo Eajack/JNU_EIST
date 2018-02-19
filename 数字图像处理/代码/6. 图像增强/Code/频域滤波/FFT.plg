@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FFT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FFT.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-2012 _下学期\《数字图像处理》\6. 图象增强\Code\频域滤波\Bmp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1FA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FFT.pdb" /debug /machine:I386 /out:"Debug/FFT.exe" /pdbtype:sept 
+".\Debug\Bmp.obj"
+".\Debug\FFT.obj"
+".\Debug\FFTDoc.obj"
+".\Debug\FFTView.obj"
+".\Debug\FilterParaDlg.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\FFT.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1FA.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/FFT.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Bmp.sbr" ".\Debug\FFT.sbr" ".\Debug\FFTDoc.sbr" ".\Debug\FFTView.sbr" ".\Debug\FilterParaDlg.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FFT.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

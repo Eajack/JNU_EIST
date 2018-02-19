@@ -1,0 +1,34 @@
+[Version]
+Signature="$WINDOWS 95$"
+Class=USB
+provider=%Rainbow%
+LayoutFile=layout.inf
+
+[Manufacturer]
+%Rainbow%=Rainbow
+
+[Rainbow]
+%USB\VID_04B9&PID_0300.DeviceDesc%=SntUsb95, USB\VID_04B9&PID_0300
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+SntUsb95.SysCopy = 10,System
+
+[SntUsb95]
+CopyFiles=SntUsb95.SysCopy
+AddReg=SntUsb95.AddReg
+
+[SntUsb95.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,SntUsb95.sys
+HKLM,"System\Currentcontrolset\Services\SntnlUsb\Parameters","MapSys",0x10001,1
+HKLM,"System\Currentcontrolset\Services\VxD\Sentinel\Setup","UsbSupport",0x10001,1
+
+[SntUsb95.SysCopy]
+
+[Strings]
+Rainbow="Rainbow Technologies Inc."
+USB\VID_04B9&PID_0300.DeviceDesc="Rainbow Security Device"
+SntUsb95.SvcDesc="Rainbow Security Device"

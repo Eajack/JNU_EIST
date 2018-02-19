@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PointTrans - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\USER\AppData\Local\Temp\RSP722E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PointTrans.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\《数字图像处理》\4. 基本运算\Code\点运算\Bmp.cpp"
+]
+Creating command line "cl.exe @C:\Users\USER\AppData\Local\Temp\RSP722E.tmp" 
+Creating temporary file "C:\Users\USER\AppData\Local\Temp\RSP722F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PointTrans.pdb" /debug /machine:I386 /out:"Debug/PointTrans.exe" /pdbtype:sept 
+".\Debug\Bmp.obj"
+".\Debug\DlgHistogram.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PointTrans.obj"
+".\Debug\PointTransDoc.obj"
+".\Debug\PointTransView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PointTrans.res"
+]
+Creating command line "link.exe @C:\Users\USER\AppData\Local\Temp\RSP722F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+PointTrans.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

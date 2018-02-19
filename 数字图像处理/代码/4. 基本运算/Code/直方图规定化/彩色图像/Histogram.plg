@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Histogram - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Histogram.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2011-2012 _下学期\《数字图像处理》\4. 基本运算\Code\直方图规定化\彩色图像\Bmp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Histogram.pdb" /debug /machine:I386 /out:"Debug/Histogram.exe" /pdbtype:sept 
+".\Debug\Bmp.obj"
+".\Debug\Histogram.obj"
+".\Debug\HistogramDoc.obj"
+".\Debug\HistogramView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Histogram.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D6.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Histogram.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Bmp.sbr" ".\Debug\Histogram.sbr" ".\Debug\HistogramDoc.sbr" ".\Debug\HistogramView.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Histogram.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

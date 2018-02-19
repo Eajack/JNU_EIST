@@ -1,0 +1,81 @@
+//Adsp Display 1.0.3.1383
+/**热点文字链2*/
+function fn_adsp_1DaN8Sa3loq68L8UEnHD() {try {
+    var a_target='';
+    a_target='_blank';
+
+    var canvas_1=document.getElementById('global_popwindow_text2');
+    if (canvas_1 == null) {
+      canvas_1=document.getElementById('global_popwindow_text2_title');
+    }
+    canvas_1.setAttribute("class", "blue list");
+    if (canvas_1.tagName.toString().toLowerCase() != "a") {
+        var link = document.createElement("a");
+        canvas_1.appendChild(link);
+        canvas_1 = link;
+    }
+
+    /*标题*/
+    canvas_1.href='http://807.tianya.cn/count?t=EFUBU699PBuVEQjPqitV&backurl=http://tour.tianya.cn/activities/wenquan/index.html';
+    canvas_1.target=a_target;
+    canvas_1.innerHTML='江南温泉等你来';
+} catch (e) {}}
+fn_adsp_1DaN8Sa3loq68L8UEnHD();
+/**热点文字链1*/
+function fn_adsp_6f0In9d9QPpeKr2puObB() {try {
+    var a_target='';
+    a_target='_blank';
+
+    var canvas_1=document.getElementById('global_popwindow_text1');
+    if (canvas_1 == null) {
+      canvas_1=document.getElementById('global_popwindow_text1_title');
+    }
+    canvas_1.setAttribute("class", "blue list");
+    if (canvas_1.tagName.toString().toLowerCase() != "a") {
+        var link = document.createElement("a");
+        canvas_1.appendChild(link);
+        canvas_1 = link;
+    }
+
+    /*标题*/
+    canvas_1.href='http://807.tianya.cn/count?t=E9hpNx18L5SUdSUUDMvf&backurl=http://world.tianya.cn/';
+    canvas_1.target=a_target;
+    canvas_1.innerHTML='世界之窗辣妹狂欢';
+} catch (e) {}}
+fn_adsp_6f0In9d9QPpeKr2puObB();
+/**导读文字链6*/
+function fn_adsp_6hCFvTXCieKXSinwcLrS() {try {
+    var a_target='';
+    a_target='_blank';
+
+    var canvas_1=document.getElementById('global_popwindow_word6');
+    if (canvas_1 == null) {
+      canvas_1=document.getElementById('global_popwindow_word6_title');
+    }
+    canvas_1.setAttribute("class", "blue list");
+    if (canvas_1.tagName.toString().toLowerCase() != "a") {
+        var link = document.createElement("a");
+        canvas_1.appendChild(link);
+        canvas_1 = link;
+    }
+
+    /*标题*/
+    canvas_1.href='http://807.tianya.cn/count?t=CYFxvva4IVM1J3dusHeW&backurl=http://e.cn.miaozhen.com/r.gif?k=1009045&p=3z86P0&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&o=http://goelia.tmall.com';
+    canvas_1.target=a_target;
+    canvas_1.innerHTML='全球限量500个旅行箱 双11免费送';
+} catch (e) {}}
+fn_adsp_6hCFvTXCieKXSinwcLrS();
+/**弹窗冠名（346*50）*/
+function fn_adsp_8sb6l2o2XzAw5xa1onwA() {try {
+    var canvas = document.getElementById('global_popwindow_pic');
+    if (canvas == null)
+        return;
+
+	canvas.style.display = "block";
+	var a_target='';
+	var window_target='';
+		a_target=' target="_blank" ';
+			canvas.innerHTML = '<A href="http://807.tianya.cn/count?t=FPUtXz4JeSgC5UKxAxrW&backurl=http://game.tianya.cn/intf/login_tool.jsp?gid=1144&sid=204" ' + a_target + '><IMG width="346" height="50" src="http://801.tianyaui.com/res/2013/1105/1383622485636.jpg" border="0"></A>';
+top.msgHeigthReInit();
+} catch (e) {}}
+fn_adsp_8sb6l2o2XzAw5xa1onwA();

@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Algebra - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\USER\AppData\Local\Temp\RSP1B7C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Algebra.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\《数字图像处理》\4. 基本运算\Code\代数运算\Bmp.cpp"
+]
+Creating command line "cl.exe @C:\Users\USER\AppData\Local\Temp\RSP1B7C.tmp" 
+Creating temporary file "C:\Users\USER\AppData\Local\Temp\RSP1B7D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Algebra.pdb" /debug /machine:I386 /out:"Debug/Algebra.exe" /pdbtype:sept 
+".\Debug\Algebra.obj"
+".\Debug\AlgebraDoc.obj"
+".\Debug\AlgebraView.obj"
+".\Debug\Bmp.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Algebra.res"
+]
+Creating command line "link.exe @C:\Users\USER\AppData\Local\Temp\RSP1B7D.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Algebra.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<HTML>
+
+<HEAD>
+<TITLE>
+Explanation of License Options
+</TITLE>
+</HEAD>
+
+<BODY>
+
+<h2>Explanation of License Options</h2>
+
+<p>
+This panel sets up license information for the software you are installing.  Select one of the following 3 options:
+<ul>
+<li><a href="#newfile">I have a new license file.</a></li>
+<li><a href="#server">I want to specify a license server.</a></li>
+<li><a href="#current">I want to keep the current license configuration.</a></li>
+</ul>
+</p>
+
+<h3><a name="newfile">I have a new license file.</a></h3>
+
+<p>
+If you have a new license file, you can use this option to have the installation read the file and set up your license server information from that file. The software installation will look for a server line (or lines) in the file you enter, and, if it finds a server line, it will create a file called license.lic in <installdir>/admin. This file will tell the application software to look at the machine name specified in that file for licenses. If there are uncounted licenses in the license file you supply, they will be placed in <installdir>/admin/eval.lic. If eval.lic already exists, the new licenses will be appended to the old file.
+</p>
+
+<p>
+When the software looks for a license, it checks first in eval.lic for uncounted evaluation licenses. If that file does not exist or if the software does not find a valid license for the feature in that file, it will look in license.lic to find the license server and request a counted license. The license.lic file will contain information identifying the license server on your network (the machine running FLEXlm for Ansoft). For counted licenses, the application software uses the TCP/IP protocol to communicate with the license server, even if the license server and the machine running the application are the same. You must have TCP/IP installed to use counted licenses. Most machines on a network or with Internet access will already have the TCP/IP protocol installed.
+</p>
+
+<p>
+You will also need to have the FLEXlm for Ansoft software installed on the machine acting as your license server. This machine can be, and often is, the same machine on which you have installed the application software. You will also need to run the Ansoft license utility and add the new license file to the license server and start or re-start the license service (you may have done this when installing FLEXlm for Ansoft).
+</p>
+
+<h3><a name="server">I want to specify a license server.</a></h3>
+ 
+<p>
+Except for evaluation licenses, all Ansoft software licenses are counted licenses. This means that a machine on your network must act as a license server. Choose this option to enter the name or IP address of a machine on your network that is acting as a license server. The license server is the machine on which you have installed (or will install) the FLEXlm for Ansoft license server software. The license server can be, and often is, the same machine on which you are installing the application software. 
+</p>
+
+<p>
+When you choose this option, the installation program creates a file called license.lic in <installdir>/admin. This file will contain the server name you enter along with information telling the software to look to that machine to get licenses. 
+</p>
+
+<p>
+NOTE: You must have the TCP/IP network protocol installed for the application software to be able to communicate with the license server. This is true even if the license server and the machine on which you are running the application are the same machine. Most machines on a network or with Internet access will already have the TCP/IP protocol installed.
+</p>
+
+<p>
+If you have set up redundant license servers, you can use this option to specify the names or IP addresses of the 3 machines that are acting as redundant license servers.
+
+
+<h3><a name="current">I want to keep the current license configuration.</a></h3>
+
+<p>
+If you have previous installed licenses on this machine so that in your <installdir>/admin you already have an eval.lic containing uncounted licenses and/or a license.lic pointing to the license server, then select this option to keep your current license configuration. You only need to change the license configuration in this panel if: 1) you add or change the machine(s) acting as a license server, or 2) you are entering new evaluation licenses.
+</p>
+
+<p>
+If you are already using counted licenses and you need to install additional counted licenses, then you probably do not need to change anything in this panel. To enter your new licenses, you should run the Ansoft License Utility on the license server, add the new license file, and re-start the license service.
+</p>
+
+</BODY>
+
+</HTML>

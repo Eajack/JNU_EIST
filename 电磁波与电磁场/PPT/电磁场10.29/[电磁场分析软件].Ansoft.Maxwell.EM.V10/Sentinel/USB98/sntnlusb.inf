@@ -1,0 +1,81 @@
+; Rainbow Technologies Sentinel SuperPro USB driver INF file
+;
+; Copyright (C) 2000 Rainbow Technologies, All rights reserved.
+
+[Version]
+Signature="$CHICAGO$"
+Class=SecurityToken
+ClassGuid={98702ED8-2400-4081-97B5-A401E0416ABE}
+;Only Windows 2000 has a catalog file.
+;CatalogFile=sntnlusb.cat
+provider=%Rainbow%
+DriverVer=04/19/2001
+
+[Manufacturer]
+%Rainbow%=Rainbow
+
+[Rainbow]
+%USB\VID_04B9&PID_0300.DeviceDesc%=SNTNLUSB, USB\VID_04B9&PID_0300
+
+[SourceDisksNames]
+1=%DiskName%,,,
+
+[SourceDisksFiles]
+SNTNLUSB.SYS=1,,
+
+[ClassInstall32]
+AddReg=SecurityToken_class_addreg
+
+[ClassInstall32.NTx86]
+AddReg=SecurityToken_class_addreg
+
+[SecurityToken_class_addreg]
+HKR,,,,%DisplayClassName%
+HKR,,NoInstallClass,,1
+HKR,,Icon,,"-20"
+
+[ControlFlags]
+; All PnP devices should be excluded from manual AddDevice Applet list
+ExcludeFromSelect.NTx86 = USB\VID_04B9&PID_0300
+
+[DestinationDirs]
+DefaultDestDir = 12
+SNTNLUSB.SysCopy = 10,System32\Drivers
+
+[SNTNLUSB]
+CopyFiles=SNTNLUSB.SysCopy
+AddReg=SNTNLUSB.AddReg
+
+[SNTNLUSB.NTx86]
+CopyFiles=SNTNLUSB.SysCopy
+AddReg=SNTNLUSB.AddReg.NTx86
+
+[SNTNLUSB.NTx86.Services]
+Addservice = SNTNLUSB, 0x00000002, SNTNLUSB.AddService
+
+[SNTNLUSB.AddService]
+DisplayName    = %SNTNLUSB.SvcDesc%
+ServiceType    = 1 ; SERVICE_KERNEL_DRIVER
+StartType      = 3 ; SERVICE_DEMAND_START
+ErrorControl   = 1 ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\SNTNLUSB.SYS
+LoadOrderGroup = Base
+
+[SNTNLUSB.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,SNTNLUSB.SYS
+HKLM,"System\Currentcontrolset\Services\Sntnlusb\Parameters","MapSys",0x10001,1
+HKLM,"System\Currentcontrolset\Services\VxD\Sentinel\Setup","UsbSupport",0x10001,1
+
+[SNTNLUSB.AddReg.NTx86]
+HKLM,"System\Currentcontrolset\Services\Sentinel\Setup","UsbSupport",0x10001,1
+
+[SNTNLUSB.SysCopy]
+SNTNLUSB.SYS
+
+[Strings]
+Rainbow="Rainbow Technologies, Inc."
+DisplayClassName="Software Security Token"
+USB\VID_04B9&PID_0300.DeviceDesc="Rainbow USB SuperPro"
+SNTNLUSB.SvcDesc="Rainbow USB SuperPro"
+DiskName="Sentinel System Driver Installation Disk"

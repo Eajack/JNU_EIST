@@ -1,0 +1,78 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        04/06/2017  15:28:39  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+F:\SOFTWARE\KEIL\C51\BIN\BL51.EXE LED.obj TO LED
+
+
+INPUT MODULES INCLUDED:
+  LED.obj (LED)
+
+
+LINK MAP OF MODULE:  LED (LED)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0071H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  LED (LED)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LED
+  C:006CH         SYMBOL        D1
+  C:006AH         SYMBOL        D2
+  C:0068H         SYMBOL        DELAY
+  C:0036H         SYMBOL        MAIN
+  D:0090H         SYMBOL        P1
+  D:0081H         SYMBOL        SP
+  C:0030H         SYMBOL        START
+  C:0000H         LINE#         2
+  C:0030H         LINE#         4
+  C:0033H         LINE#         5
+  C:0036H         LINE#         7
+  C:0038H         LINE#         8
+  C:003AH         LINE#         9
+  C:003CH         LINE#         10
+  C:003EH         LINE#         11
+  C:0040H         LINE#         12
+  C:0042H         LINE#         13
+  C:0044H         LINE#         14
+  C:0046H         LINE#         15
+  C:0048H         LINE#         16
+  C:004AH         LINE#         17
+  C:004CH         LINE#         18
+  C:004EH         LINE#         19
+  C:0050H         LINE#         20
+  C:0052H         LINE#         21
+  C:0054H         LINE#         22
+  C:0056H         LINE#         23
+  C:0058H         LINE#         24
+  C:005AH         LINE#         25
+  C:005CH         LINE#         26
+BL51 BANKED LINKER/LOCATER V6.22                                                      04/06/2017  15:28:39  PAGE 2
+
+
+  C:005EH         LINE#         27
+  C:0060H         LINE#         28
+  C:0062H         LINE#         29
+  C:0064H         LINE#         30
+  C:0066H         LINE#         31
+  C:0068H         LINE#         33
+  C:006AH         LINE#         34
+  C:006CH         LINE#         35
+  C:006EH         LINE#         36
+  C:0070H         LINE#         37
+  -------         ENDMOD        LED
+
+Program Size: data=8.0 xdata=0 code=113
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

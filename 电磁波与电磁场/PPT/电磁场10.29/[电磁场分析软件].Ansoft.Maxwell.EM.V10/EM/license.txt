@@ -1,0 +1,252 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT: IMPORTANT: READ CAREFULLY 
+ 
+By installing, copying or using the Ansoft software 
+products contained herein, you indicate your acceptance of
+and agree to be bound by the terms and conditions of this 
+Proprietary Software License Agreement. These terms and 
+conditions are a legal agreement between the Licensee (you) 
+and Ansoft Corporation (Ansoft). 
+ 
+IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, DO NOT 
+INSTALL,  COPY OR USE THE SOFTWARE. 
+ 
+1. LICENSE.  Subject to the provisions contained herein, 
+Ansoft  (Licensor) grants to the Licensee a non-exclusive, 
+nontransferable license to use the Licensed Products 
+contained herein. Licensee is authorized to use the 
+Licensed Products only for Licensees own use and only on 
+properly designated CPUs located at properly designated 
+Sites. The Licensed Products may be used concurrently by no 
+more than the number of permitted concurrent users 
+specified and at no Site other than the designated Site. 
+Permitted users must be located at designated Site. A Site 
+is defined as a 10-mile radius surrounding the properly 
+designated CPU.  
+ 
+ONLY ONE (1) VERSION OF LICENSED PRODUCTS MAY BE USED AT A 
+TIME. NEW RELEASES OF THE LICENSED PRODUCTS PROVIDED UNDER 
+MAINTENANCE CAN BE USED ONLY AS A REPLACEMENT FOR EXISTING 
+LICENSED PRODUCTS. 
+ 
+2. TERM.  This Agreement shall be effective upon the 
+execution of this Agreement by the parties. This Agreement 
+shall remain in force until terminated.  The Licensee may 
+terminate this Agreement at any time by returning all 
+copies of the Licensed Products and documentation to 
+Licensor.  Termination of this Agreement by Licensee shall 
+not relieve Licensee of any obligations under this 
+Agreement. Licensor may terminate this Agreement at any 
+time if Licensee Breaches any of the terms and conditions 
+of this Agreement.  If this Agreement is terminated for any 
+reason, Licensee agrees to certify in writing, that full 
+and partial copies of the Licensed Products and 
+documentation have been returned to Licensor. 
+ 
+3. PROTECTION AND SECURITY.  Notwithstanding any copyright 
+notices, the Licensed Products contain trade secrets and 
+confidential information of Licensor and its suppliers.  
+The Licensed Products and the related documentation may not 
+be copied in whole or in part for any purpose except that 
+one (1) copy may be made of the Licensed Products for 
+archival purposes. Except as provided herein, the Licensee 
+agrees not to duplicate or disclose or otherwise make the 
+Licensed Products or documentation available to any third 
+party without Licensors prior written consent.  The 
+Licensee agrees not to reverse compile, reverse engineer or 
+disassemble the Licensed Products. 
+ 
+4.  MAINTENANCE AND SUPPORT.  Licensor agrees to provide 
+(3) three months of Maintenance and Support for the 
+Licensed Products without charge. This three-month term 
+commences on the day the Licensed Product(s) are shipped 
+from Licensor.  For the purposes of this Agreement, 
+Maintenance shall consist of Licensor providing Licensee 
+with such new releases of the Licensed Products as Licensor 
+makes generally available to other licensees without 
+additional charge.  Licensor shall not be required to 
+provide Licensee with new releases of the Licensed Products 
+which provide new functionality and are distributed to 
+Licensees only if an additional fee is paid.   
+ 
+For the purposes of this Agreement Support shall consist of 
+Licensor providing answers to a reasonable amount of 
+telephone and facsimile questions from the Licensee 
+Representative at any time upon notification to Licensor. 
+The term reasonable amount is determined exclusively by 
+Licensors application engineers and management.  Under no 
+circumstances does Licensor provide consulting services.  
+Discussions with application engineers are not intended nor 
+should be interpreted as such.  In no event will Licensor 
+be liable for misinterpretation of Support discussions.  To 
+continue Maintenance and Support Services beyond the 
+initial term, Licensee must pay a Maintenance and Support 
+Fee. Licensor may discontinue the availability of 
+Maintenance and Support for any Licensed Product at any 
+time in its sole discretion. 
+ 
+Licensees failure to properly install the Licensed Products 
+on the Designated CPU, Licensees modification or attempted 
+modification of the Licensed Products, Licensees 
+preparation of a derivative work of the Licensed Products, 
+or Licensees implementation of corrections, improvements, 
+or revisions to the Licensed Products, without the 
+written consent of Licensor, shall void any Maintenance and 
+Support obligations of Licensor under this Agreement. 
+  
+5.  LIMITED WARRANTY.  Licensor warrants that each Licensed 
+Product will conform substantially with the published 
+documentation for such Licensed Product for (1) one year 
+from the date of Licensees receipt of the Licensed Product. 
+Licensor does not warrant that the Licensed Products will 
+be free of all errors or operate without 
+interruption. THE FOREGOING WARRANTY IS IN LIEU OF ALL 
+OTHER WARRANTIES EXPRESSED, IMPLIED OR STATUTORY, AND 
+LICENSOR SPECIFICALLY DISCLAIMS ALL OTHER WARRANTIES, 
+INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
+Implied warranties that cannot lawfully be excluded are 
+limited to the duration of the express warranty stated 
+above. 
+ 
+6. EXCLUSIVE REMEDY.  The entire liability of Licensor and 
+its suppliers and the Licensees sole and exclusive remedy 
+is limited to repair or replacement of any Licensed Product 
+not meeting Licensors limited warranty or the refund of the 
+purchase price of such Licensed Product at Licensors 
+option, provided the Licensed Product is returned to 
+Licensor headquarters with proof of purchase within the one 
+(1) year warranty period.   
+ 
+7. LIMITATION OF LIABILITY.  LICENSOR WILL NOT BE LIABLE 
+FOR ANY LOST PROFITS, INCIDENTAL, INDIRECT, SPECIAL OR 
+CONSEQUENTIAL DAMAGES WHATSOEVER, EVEN IF LICENSOR HAS BEEN 
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  LICENSORS 
+ENTIRE LIABILITY UNDER OR RELATED TO THIS AGREEMENT IS 
+LIMITED TO THE REMEDIES SPECIFIED BY THIS AGREEMENT.  
+LICENSORS LIABILITY FOR DAMAGES, REGARDLESS OF THE FORM OF 
+THE ACTION, SHALL NOT EXCEED THE FEES PAID FOR THE 
+APPLICABLE SERVICES OR FOR THE LICENSE OF THE LICENSED 
+PRODUCT THAT GAVE RISE TO THE CLAIM. 
+ 
+8. FEES.  Excluding evaluation licenses, licensee agrees to 
+pay the License Fees for the Licensed Products specified on 
+the accompanying invoice.  The License Fees do not 
+include taxes, shipping, or handling charges, all of which 
+shall be paid by Licensee, except for taxes based on 
+Licensors net income.  The Shipping Fee listed on the 
+accompanying invoice covers all shipping costs for shipment 
+of the Licensed Products. The method and carrier for 
+shipment shall be selected by Licensor.  All fees and 
+charges under this Agreement shall be due and payable 
+within thirty (30) days after the date of the invoice. Any 
+and all payments made under the provisions of the agreement 
+shall be payable in the currency as listed on the 
+accompanying invoice. Licensor reserves the right to 
+request such payments be made by wire transfer according to 
+instructions for such transfer as specified by Licensor 
+from time to time. 
+ 
+9. INFRINGEMENT. If promptly notified in writing by 
+Licensee of such action, Licensor agrees to defend or 
+settle at its option, and hold Licensee harmless from, any 
+action at law or in equity finally adjudicated against 
+Licensee arising from a claim that Licensees use of the 
+Licensed Products or documentation under this Agreement 
+infringes any United States patent, copyright, or 
+proprietary right; provided that Licensee shall give 
+Licensor the right to control and direct the investigation, 
+preparation, defense, and settlement of each such claim and 
+Licensee shall fully cooperate with Licensor or its 
+designee in connection with the foregoing; further 
+provided, Licensor may, immediately upon notice of such an 
+infringement claim, replace all or part of the Licensed 
+Products to make it non infringing or Licensor may obtain 
+the right for Licensee to use the allegedly infringing 
+Licensed Products. 
+ 
+10. EXPORT PROVISION.  Licensee acknowledges that the 
+export of the Licensed Products are subject to Licensor 
+receiving the necessary licenses or approvals for export 
+from the United States, and Licensor shall not be liable 
+for any delays including but not limited to required export 
+authorizations which are beyond the reasonable control of 
+Licensor. Licensee agrees that regardless of any disclosure 
+made by Licensee to Licensor of an ultimate destination of 
+the Licensed Products, Licensee will not re-export 
+directly or indirectly any Licensed Products, without first 
+obtaining a license from the United States Government, as 
+required. Licensee shall provide Ansoft with any 
+information, certifications or other documents which 
+Licensor may require in connection with the export of the 
+Licensed Products, or any portions or parts thereof, 
+pursuant to the Export Administration Act of 1979, as 
+amended, and the rules and regulations promulgated 
+thereunder. 
+ 
+Without limitation of the foregoing, Licensee agrees to not 
+knowingly export or re-export any software, documentation 
+or technical data furnished to Licensee under this 
+Agreement, without first obtaining permission to do so from 
+the United States Department of Commerce or other 
+appropriate governmental agencies into any of those 
+countries listed from time to time in part 370 to Title 15 
+of the Code of Federal Regulation in designated prohibited 
+Country Groups. 
+ 
+Licensee agrees to obtain any and all necessary government 
+approvals in its country relating to performance of this 
+Agreement; assist in clearing the Licensed Products 
+through customs; and pay any and all tariffs, taxes, import 
+duties or excises imposed on the Licensed Products in 
+connection with its use hereunder. 
+ 
+11. SUCCESSORS AND ASSIGNS.  The Agreement shall be binding 
+on and inure to the benefit of the parties, permitted 
+assigns and legal representatives.  Licensee may not assign 
+this Agreement without Licensors prior written consent. 
+ 
+12. TITLE. This Agreement grants Licensee no title or 
+rights of or to ownership in the Licensed Products or 
+documentation or any corrections, improvements or revisions 
+furnished under the Maintenance and Support provisions 
+hereof.  THIS AGREEMENT DOES NOT INCLUDE THE RIGHT TO 
+SUBLICENSE. 
+ 
+13. FORCE MAJEURE.  Neither party nor its representatives 
+shall be liable for delays or failures in performances 
+resulting from acts beyond the reasonable control of such 
+person and time for performance will be extended by a 
+period equal to such delay.  Such acts shall include, 
+without limitation, acts of God, strikes, lockouts, riots, 
+acts of war, epidemics, governmental regulations imposed 
+after the fact, fire, power failures, earthquakes, or other 
+disasters. 
+  
+14. OFFICIAL LANGUAGE. The Parties agree that the official 
+language of this Agreement is English. Documents or notices 
+not written in English shall have no effect under this 
+Agreement. 
+ 
+15. RELIEF. Licensee acknowledges that any violation of 
+this Agreement by Licensee will cause irreparable injury to 
+Licensor, and Licensor shall be entitled to injunctive 
+relief. 
+ 
+16. GENERAL. This Agreement merges all prior written and 
+oral communications and defines the entire Agreement of the 
+parties concerning the Licensed Products. All notices 
+required under this Agreement or pertaining to 
+modifications to this Agreement shall be in writing, 
+including facsimile copies, however, excluding all 
+variations of Electronic Mail, and shall be considered 
+given upon personal delivery of the written notice or 
+within five (5) days of mailing, postage prepaid and 
+appropriately addressed. This Agreement shall be construed 
+in accordance with laws of the United States, of the 
+Commonwealth of Pennsylvania without regard to its 
+conflicts of laws provisions.  The failure by either party 
+at any time to enforce its rights under this Agreement will
+not be construed as a waiver of such rights, nor will it in 
+any way affect the validity of this Agreement.  No waiver 
+by either party will be valid unless given in an 
+appropriate writing signed by both parties.

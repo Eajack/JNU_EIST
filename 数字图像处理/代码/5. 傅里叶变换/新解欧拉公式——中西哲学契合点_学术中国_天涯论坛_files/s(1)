@@ -1,0 +1,49 @@
+if(typeof(jQuery) == 'undefined'||typeof(adsGlobal)=='undefined'){
+    jQuery = null; 
+	adsGlobal = null;
+}
+(function($, ads){
+var typictypeext = function (typicurl,typiclnk,typicwdh,typichgt,tyagtsw,tylocsw,typicdif)
+	{
+		var imgobj = "";
+		tyframewdh = typicwdh;
+		tyframehgt = typichgt;
+		if (tylocsw == 1)
+		{
+		  picposcss = 'width:'+typicwdh+'px;height:'+typichgt+'px;border:none;margin:'+typicdif+'px auto;text-align:center;';
+		}
+		else if (tylocsw == 2)
+		{
+		  picposcss = 'width:'+typicwdh+'px;height:'+typichgt+'px;border:none;margin:'+typicdif+'px 0;';
+		}
+		else{picposcss="";}
+		if(typicurl.toLowerCase().indexOf('.swf')>0)
+		 {
+			if (tyagtsw >0)
+			 {
+			imgobj ='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="'+typicwdh+'" height="'+typichgt+'"><param name="movie" value="'+typicurl+'?clickTAG=http://dol.tianya.cn/c?z=tianya&la=190206&si=2&cg=4&c=190206&ci=3&or=8&l=43&bg=43&b=47" /><param name="quality" value="high" /><param name="wmode" value="opaque" /><embed src="'+typicurl+'?clickTAG=http://dol.tianya.cn/c?z=tianya&la=190206&si=2&cg=4&c=190206&ci=3&or=8&l=43&bg=43&b=47" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="'+typicwdh+'" height="'+typichgt+'" swliveconnect="true" name="" wmode=opaque></embed></object>';
+			 }
+			else 
+			 {
+			imgobj ='<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="'+typicwdh+'" height="'+typichgt+'"><param name="movie" value="'+typicurl+'" /><param name="quality" value="high" /><param name="wmode" value="opaque" /><embed src="'+typicurl+'" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="'+typicwdh+'" height="'+typichgt+'" swliveconnect="true" name="" wmode=opaque></embed></object><a style="cursor: pointer; display: block;" href="http://dol.tianya.cn/c?z=tianya&la=190206&si=2&cg=4&c=190206&ci=3&or=8&l=43&bg=43&b=47&u=http://801.tianyaui.com/2013/baidu/test1newdt95090.html" target="_blank"><div style="width:'+typicwdh+'px;height:'+typichgt+'px;position:relative;margin-top:-'+typichgt+'px;left:0px;z-index:100;background-color:black;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;cursor:pointer;border:none;padding:0px;overflow:hidden;"></div></a>';
+			 }
+		 }
+		else if(typicurl.toLowerCase().indexOf('.jpg')>0||typicurl.toLowerCase().indexOf('.gif')>0||typicurl.toLowerCase().indexOf('.png')>0)
+		 {
+		imgobj ='<a href="http://dol.tianya.cn/c?z=tianya&la=190206&si=2&cg=4&c=190206&ci=3&or=8&l=43&bg=43&b=47&u=http://801.tianyaui.com/2013/baidu/test1newdt95090.html" target="_blank"><img src="'+typicurl+'" style="width:'+typicwdh+'px;height:'+typichgt+'px; border:none;" border="0" /></a>';
+		 }
+		else
+		 {
+		imgobj ='<div style="none;width:'+typicwdh+'px;height:'+typichgt+'px;"><iframe frameborder="0" width="'+tyframewdh+'" height="'+tyframehgt+'" scrolling="no" src="'+typicurl+'"></iframe></div>';	
+		 }
+		return imgobj;
+	};
+var result = typictypeext("http://801.tianyaui.com/2013/baidu/test1newdt95090.html","http://801.tiahttp://801.tianyaui.com/2013/baidu/test1newdt95090.html",950,90,0,0,0);
+if(ads==null){
+	document.write('<div class="adsame-box" style="'+picposcss+'">'+result+'</div>');
+}else{
+	var node = ads.qNode('190206');
+	node.innerHTML = '<div class="adsame-box" style="'+picposcss+'">'+result+'</div>';
+}
+})(jQuery, adsGlobal);//jQuery, adsGlobal 在天涯页面上是全局对象
+<!--null.-->

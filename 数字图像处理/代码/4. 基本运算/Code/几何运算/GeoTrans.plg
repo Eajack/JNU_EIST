@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GeoTrans - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\USER\AppData\Local\Temp\RSP662E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GeoTrans.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\《数字图像处理》\4. 基本运算\Code\几何运算\bmp.cpp"
+]
+Creating command line "cl.exe @C:\Users\USER\AppData\Local\Temp\RSP662E.tmp" 
+Creating temporary file "C:\Users\USER\AppData\Local\Temp\RSP662F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/GeoTrans.pdb" /debug /machine:I386 /out:"Debug/GeoTrans.exe" /pdbtype:sept 
+".\Debug\bmp.obj"
+".\Debug\GeoTrans.obj"
+".\Debug\GeoTransDoc.obj"
+".\Debug\GeoTransView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\GeoTrans.res"
+]
+Creating command line "link.exe @C:\Users\USER\AppData\Local\Temp\RSP662F.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmp.cpp
+E:\《数字图像处理》\4. 基本运算\Code\几何运算\bmp.cpp(246) : warning C4101: 'pixel' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+GeoTrans.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

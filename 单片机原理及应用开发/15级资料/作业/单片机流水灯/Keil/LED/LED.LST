@@ -1,0 +1,68 @@
+A51 MACRO ASSEMBLER  LED                                                                  04/06/2017 15:28:11 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.01
+OBJECT MODULE PLACED IN LED.OBJ
+ASSEMBLER INVOKED BY: F:\software\Keil\C51\BIN\A51.EXE LED.ASM SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             ORG 0000H
+0000 802E              2             SJMP START
+0030                   3             ORG 0030H
+0030 758160            4     START:MOV SP,#60H
+0033 7590FF            5               MOV P1,#0FFH
+                       6     
+0036 C290              7     MAIN:CLR P1.0
+0038 1168              8              CALL DELAY
+003A D290              9              SETB P1.0
+003C C291             10              CLR P1.1
+003E 1168             11              CALL DELAY
+0040 D291             12              SETB P1.1
+0042 C292             13              CLR P1.2
+0044 1168             14              CALL DELAY
+0046 D292             15              SETB P1.2
+0048 C293             16              CLR P1.3
+004A 1168             17              CALL DELAY
+004C D293             18              SETB P1.3
+004E C294             19              CLR P1.4
+0050 1168             20              CALL DELAY
+0052 D294             21              SETB P1.4
+0054 C295             22              CLR P1.5
+0056 1168             23              CALL DELAY
+0058 D295             24              SETB P1.5
+005A C296             25              CLR P1.6
+005C 1168             26              CALL DELAY
+005E D296             27              SETB P1.6
+0060 C297             28              CLR P1.7
+0062 1168             29              CALL DELAY
+0064 D297             30              SETB P1.7
+0066 80CE             31              SJMP MAIN
+                      32     
+0068 78FA             33     DELAY:MOV R0,#250
+006A 79FA             34        D2:MOV R1,#250
+006C D9FE             35        D1:DJNZ R1,D1
+006E D8FA             36           DJNZ R0,D2
+0070 22               37               RET
+                      38               END
+A51 MACRO ASSEMBLER  LED                                                                  04/06/2017 15:28:11 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+D1 . . . . . . . .  C ADDR   006CH   A   
+D2 . . . . . . . .  C ADDR   006AH   A   
+DELAY. . . . . . .  C ADDR   0068H   A   
+MAIN . . . . . . .  C ADDR   0036H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+SP . . . . . . . .  D ADDR   0081H   A   
+START. . . . . . .  C ADDR   0030H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
