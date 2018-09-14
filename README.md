@@ -19,7 +19,7 @@
 4. 为方便下载，可能有些同学只需要下载几个资料，那更简单，直接在Octotree插件栏有对应的下载按键。例如，想要下载“复变函数与积分变换”的“《复变函数与积分变换》学习指导.pdf”，操作动图如下：
 
 <div align="center">
-<img src="https://github.com/Eajack/JNU_EIST/blob/master/README/howToDownload-Step4.gif" height="400" width="400" >
+<img src="https://github.com/Eajack/JNU_EIST/blob/master/README/howToDownload-Step4.gif" height="350" width="450" >
  </div>
 
 ## 更新历史
