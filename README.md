@@ -30,6 +30,8 @@
 <img src="https://github.com/Eajack/JNU_EIST/blob/master/README/howToDownload-Step4.gif" height="350" width="350" >
  </div>
 
+
+**PS：由于Github文件传输大小限制，本来想每个科目一个zip压缩包上传，然而很多压缩包不行。。所以就没上传了**
 ## 更新历史
 
 >* 2018/2/18 创建JNU_EIST Github库
