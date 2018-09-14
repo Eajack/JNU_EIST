@@ -14,15 +14,10 @@
 1. 推荐首先下载Github插件[Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-ntp-icon)并且安装好（链接为Chrome网上应用店链接，可能要翻墙，实测校园网可以直接访问）
 2. 然后，在Github左侧有伸展栏，可点击展开如下：
 
-
-3. 为方便下载，本人在“大礼包ZIP”文件夹中，已经提供了所有科目的zip压缩文件，想要哪个科目的可以直接在Octotree插件栏中下载。例如，想要下载“复变函数与积分变换”科目所有资料，操作动图如下：
-
-
 3. 为方便下载，可能有些同学不需要一个科目完全下载，只需要下载一个科目的部分资料。例如，想要下载“复变函数与积分变换”的“试卷”文件夹，本人也在相应文件夹下面提供了zip文件，操作动图如下：
 
-
 4. 为方便下载，可能有些同学只需要下载几个资料，那更简单，直接在Octotree插件栏有对应的下载按键。例如，想要下载“复变函数与积分变换”的“《复变函数与积分变换》学习指导.pdf”，操作动图如下：
-
+![howToDownload-Step4](https://github.com/Eajack/JNU_EIST/blob/master/README/howToDownload-Step4.gif)
 
 ## 更新历史
 
@@ -31,6 +26,7 @@
 >* 2018/2/19 上传整理的大二上、下复习资料
 >* 2018/7/4 高频电子线路 复习资料更新
 >* 2018/7/25 上传整理的大三下复习资料
+>* 2018/9/14 为方便下载，zip压缩包更新
 
 ## 协议
 
