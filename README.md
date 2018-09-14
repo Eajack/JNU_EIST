@@ -14,6 +14,10 @@
 1. 推荐首先下载Github插件[Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?utm_source=chrome-ntp-icon)并且安装好（链接为Chrome网上应用店链接，可能要翻墙，实测校园网可以直接访问）
 2. 然后，在Github左侧有伸展栏，可点击展开如下：
 
+<div align="center">
+<img src="https://github.com/Eajack/JNU_EIST/blob/master/README/howToDownload-Step2.gif" height="700" width="1400" >
+ </div>
+
 3. 为方便下载，可能有些同学不需要一个科目完全下载，只需要下载一个科目的部分资料。例如，想要下载“复变函数与积分变换”的“PPT”文件夹，本人也在相应文件夹下面提供了zip文件，操作动图如下（**PS：由于Github文件传输大小限制，只有部分文件夹才能上传对应的压缩包**）：
 
 <div align="center">
